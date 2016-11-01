@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+header {
+  background-image: url(../img/banner.jpg);
+}
+h1 {
+font-family: 'Pacifico', cursive;
+}
