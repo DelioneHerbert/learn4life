@@ -1,0 +1,43 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin:0;
+}
+
+ul {
+ background-color:aqua;
+  border: solid red 2px;
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+}
+
+a {
+ color: yellow;
+ display: block;
+ text-align: center;
+ background-color: crimson;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-width: 5px 1px 10px 25px;
+ border-style: dotted solid dashed double;
+ border-color: red magenta green pink;
+ transition: all 1000ms
+}
+
+
+li {
+ padding: 10px 
+}
+  
+
+a:hover {
+  border-width: 10px 20px 1px 5px;
+  border-color: blue salmon orange purple;
+  background-color: black;
+  padding: 20px 0px 20px 0px;
+  font-size: 250%;
+  transform: rotate(3600deg)
+}
+
+
+

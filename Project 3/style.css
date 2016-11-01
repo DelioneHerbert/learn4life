@@ -1,0 +1,29 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+ color: blue;
+  transition: all s;
+  background-color:lightskyblue;
+}
+h1:hover {
+ color: forestgreen;
+  font-size: 300px;
+  text-shadow: 5px 5px 5px forestgreen;
+    transform:rotate(36000000000000000000000000000deg)
+}
+a:visited {
+ color: blue; 
+}
+
+nav li:nth-child(odd) {
+  background-color: blue;
+}
+.Similar {
+ background-color: crimson
+}
+
+
+
+
