@@ -1,0 +1,40 @@
+body {
+  background-color: red;
+  margin: 0;
+  font-size: 18px;
+}
+nav li {
+  display: inline;
+}
+nav {
+  background-color: orange;
+  padding: 0px 15px 0px 10px;
+}
+ nav a {
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  display: inline-block;
+  background-color: forestgreen;
+  text-align: center;
+  border-radius: 10px;
+  /*font-size: 300%;*/
+  text-decoration: none;
+  color: lime;
+  border: 1px solid pink;
+  background-image: linear-gradient(black,grey,white,pink,red,blue,yellow,purple,orange,lime,green,forestgreen,black,grey,white,pink,red,blue,yellow,purple,orange,lime,green,forestgreen,black,grey,white,pink,red,blue,yellow,purple,orange,lime,green,forestgreen,black,grey,white,pink,red,blue,yellow,purple,orange,lime,green,forestgreen,black,grey,white,pink,red,blue,yellow,purple,orange,lime,green,forestgreen,black,grey,white,pink,red,blue,yellow,purple,orange,lime,green,forestgreen);
+  ;
+}
+nav a::before {
+  content: ':';
+}
+nav a::after {
+  content: ':';
+}
+nav a:hover {
+  transform: rotate(3600deg);
+  transition: all 10000000ms;
+}
+nav a {
+  transition: all 10000000ms
+}
