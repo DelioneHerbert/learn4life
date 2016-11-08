@@ -1,0 +1,19 @@
+article {
+  float:left;
+  width:55%;
+}
+aside {
+  float:right;
+  width:25%;
+}
+body {
+  columns:
+}
+footer {
+  background-color:green;
+}
+main::after {
+  content:'';
+  clear:both;
+  display: block;
+}
