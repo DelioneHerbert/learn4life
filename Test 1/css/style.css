@@ -1,0 +1,25 @@
+.list {
+  background-color: PaleVioletRed;
+  list-style: none;
+  padding: 0;
+  width: 200px;
+  border: 1px solid MediumVioletRed;
+}
+
+.list .list-item {
+  border-bottom: 1px solid MediumVioletRed;
+  padding: 5px;
+}
+
+.list .list-item:last-child {
+  border-bottom: 0;
+}
+
+.list .list-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.list .list-item a:hover {
+  text-decoration: underline;
+}
