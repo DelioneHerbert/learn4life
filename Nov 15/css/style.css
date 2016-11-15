@@ -1,0 +1,9 @@
+body {
+  font-family: cursive;
+}
+#phone, #phone + input {
+  width: 60px;
+}
+legend {
+  
+}
