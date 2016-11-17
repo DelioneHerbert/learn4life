@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+body {
+  font-family: serif;
+}
+div.blackjack {
+  width: calc(100% / 3);
+  margin: 0 auto;
+  border: 1px solid hsl(0, 0%, 90%);
+  border-radius: 5px;
+  padding: 40px 20px 20px;
+  transition: all 150ms ease-out;
+  position: relative;
+}
+div.blackjack a {
+  background-color: hsl(16, 100%, 66%);
+  padding: 7px 15px;
+  border: 1px solid hsl(16, 100%, 56%);
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 0px hsl(16, 100%, 56%);
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 1px 1px 3px hsla(0, 0%, 0%, .5);
+  transition: all 150ms ease-out;
+}
+div.blackjack a:hover {
+  box-shadow: 2px 2px 6px hsla(0, 0%, 0%, .5);
+  transform: scale(1.05);
+}
+div.blackjack:hover {
+box-shadow: 1px 1px 5px hsla(0, 0%, 0%, .05);
+}
+
+div.blackjack i.fa {
+background-color: hsl(16, 100%, 66%);
+border: 1px solid hsl(16, 100%, 56%);
+padding: 7px 15px;
+font-size: 250%;
+color:white;
+text-shadow: 1px 1px 0px hsl(16, 100%, 56%);
+border-radius: 3px;
+position: absolute;
+left: 50%;
+transform: translate3d(-50%, -50%, 0);
+top: 0;
+transition: all 150ms ease-out;
+}
+div.blackjack i.fa::after {
+  content: '';
+  top:100%;
+  left:50%;
+  display: block;
+  border-width: 10px 10px 0px 10px;
+  border-style: solid;
+  border-color: red transparent yellow transparent;
+  position: absolute;
+transform: translateX(-50%);
+}
+div.blackjack:hover i.fa {
+  transform: translate3d(-50%, -25%, 0);
+}
+div.blackjack::before {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 0%;
+  background-color: hsl(16, 100%, 56%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  transition: all 150ms ease-out;
+}
+div.blackjack:hover::before {
+  width: 100%;
+}
+div.blackjack::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: hsl(16, 100%, 56%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  transition: all 150ms ease-out;
+}
+div.blackjack:hover::after {
+  width: 100%;
+}
+div.blackjack .spades::before {
+  content: '';
+  display: block;
+  height: 0%;
+  width: 2px;
+  background-color: hsl(16, 100%, 56%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  transition: all 150ms ease-out;
+}
+div.spades:hover .spades::before {
+  height: 100%;
+}
+div.spades::before {
+  content: '';
+  display: block;
+  height: 0%;
+  width: 2px;
+  background-color: hsl(16, 100%, 56%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  transition: all 150ms ease-out;
+}
+div.spades:hover::before {
+  height: 100%;
+}
