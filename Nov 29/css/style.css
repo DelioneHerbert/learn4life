@@ -1,0 +1,42 @@
+@import url (https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.btn {
+  background-color: hsl(280, 69%, 53%);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 1px solid hsl(280, 69%, 43%);
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+section {
+  color: gold;
+  background-color: silver;
+  padding: 15px 10%;
+  position: relative;
+}
+div img {
+  width: 100%;
+}
+div {
+  width: 50%;
+  float:left;
+}
+section::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+i.fa {
+  position: absolute;
+}
+
+i.fa-chevron-circle-left {
+  left: 0;
+}
+i.fa-chevron-circle-right {
+  right: 0;
+}
