@@ -16,7 +16,7 @@ div.blackjack {
   position: relative;
 }
 div.blackjack a {
-  background-color: hsl(16, 100%, 66%);
+  background-color: hsl(100, 100%, 66%);
   padding: 7px 15px;
   border: 1px solid hsl(16, 100%, 56%);
   text-decoration: none;
