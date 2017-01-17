@@ -1,0 +1,14 @@
+<html lang="en">
+<head>
+  <link href="css/style.css">
+  <title>Deadpool</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <div>
+    <img src="img/bfe64b2af2206edbc4075aab9f08550e.jpg">
+    <h1>Deadpool</h1>
+    <p></p>
+  </div>
+</body>
+</html>

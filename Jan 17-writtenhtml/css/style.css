@@ -1,0 +1,14 @@
+div {
+  text-align: center;
+  border: 5px;
+  border-style: solid;
+  margin: 25%;
+  background-color: crimson;
+}
+img {
+  border-radius: 50%;
+  border: 4px;
+  border-style: ridge;
+  height: 400px;
+  width: 400px;
+}
