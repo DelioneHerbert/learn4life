@@ -5,6 +5,7 @@ div {
   border: solid grey 1px;
   border-radius: 10px;
   text-align: center;
+  display: inline-block;
 }
 
 img {
