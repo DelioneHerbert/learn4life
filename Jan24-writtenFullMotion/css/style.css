@@ -1,0 +1,27 @@
+div {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: solid grey 1px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border: solid red 5px;
+  border-radius: 50%;
+}
+.container-div {
+  border: none
+}
+
+a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: solid crimson 2px;
+  color:orange;
+  background-color: red;
+  border-radius: 20px;
+}
