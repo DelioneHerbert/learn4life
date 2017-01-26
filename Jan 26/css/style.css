@@ -1,0 +1,63 @@
+
+body {
+  background-color:hsl(240, 6%, 13%);
+}
+
+div {
+  width: 30%;
+  margin: 0 auto;
+  border: solid black 1px;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 20px;
+  background-color:hsl(240,6%,18%);
+  color: white;
+}
+
+img {
+  height: 150px;
+  width: 100%;
+}
+.container-div {
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.green {
+  text-decoration: none;
+  padding: 10px 50px;
+  border: solid lightgreen 2px;
+  color:white;
+  background-color: green;
+}
+section {
+ text-align: center;
+}
+.blue {
+  text-decoration: none;
+  padding: 10px 50px;
+  border: solid lightblue 2px;
+  color: white;
+  background-color: blue;
+}
+.purple {
+  text-decoration: none;
+  padding: 10px 50px;
+  border: solid violet 2px;
+  color: white;
+  background-color: purple;
+}
+
+
+
+
+
+
+
+black:hsl(240, 6%, 13%)
+gray:hsl(240,6%,18%)
+green:hsl(174,44%,61%)
+blue:hsl(226,45%,65%)
+purple:hsl(263,47%,65%)
