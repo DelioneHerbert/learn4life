@@ -1,0 +1,16 @@
+h1 {
+  font-size: 45px;
+}
+li {
+  list-style: none;
+}
+.Big-Text {
+
+}
+article {
+text-align: left;
+float: left;
+}
+aside {
+  float: right;
+}
