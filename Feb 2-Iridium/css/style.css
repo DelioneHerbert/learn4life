@@ -1,0 +1,36 @@
+h1 {
+  font-size: 45px;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+article {
+text-align: center;
+width: 800px;
+float:left;
+}
+aside {
+width: 350px;
+float: right;
+position:relative;
+}
+section {
+  width: 100%;
+}
+div {
+  width: 1200px;
+  margin: 0px auto -1px auto;
+  padding: 15px;
+}
+.block-of-cheese {
+  text-align: center;
+  background-image: url('../img/banner.jpg');
+  background-size: cover;
+  padding: 50px;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
