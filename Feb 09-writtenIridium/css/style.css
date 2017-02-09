@@ -1,0 +1,112 @@
+li {
+  list-style: none;
+}
+h2 {
+  font-size: 2.5em;
+
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+header {
+  background-color: brown;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+}
+h1 {
+  margin: 0;
+  font-size: 4em;
+
+}
+p {
+  margin-top: 0;
+}
+nav {
+  padding: 10px;
+
+}
+ul {
+  list-style: none;
+  margin: 50px 0 0 0;
+  padding: 10px;
+}
+li {
+  display: inline-block;
+  padding-right: 10px;
+}
+header a {
+  color:inherit;
+  border: 1px solid transparent;
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius: 500px;
+}
+header a:hover {
+  background-color: hsla(0, 0, 100%, .1);
+  border-color: white;
+}
+section {
+  padding: 50px 12%;
+  display: flex;
+
+}
+section article {
+  flex: 2
+}
+section aside {
+  flex: 1
+}
+/*section aside {
+  width: 30%;
+  float: right;
+}
+section article {
+  width: 70%;
+  float: left;
+}*/
+article img {
+  width: 100%;
+  margin: 25px 0;
+}
+h2 + p {
+  margin: 0;
+  font-size: 1.25em
+}
+h2 {
+  margin-bottom: 0;
+}
+aside img {
+  float: left;
+  margin-right: 15px;
+}
+aside p {
+  padding-left: 85px;
+}
+aside li:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+aside li:not(:first-child) {
+  padding-bottom: 25px;
+}
+/*not is literal*/
+
+
+
+
+
+
+
+
+
+
+.

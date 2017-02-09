@@ -1,0 +1,70 @@
+/*@import url('https://fonts.googleapis.com/css?family=Arimo');
+body {
+  text-align: center;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Arimo', sans-serif;
+}
+li  {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  padding-right: 15px
+}
+h1 {
+  font-size: 50px
+}
+a {
+  text-decoration: none;
+}*/
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+header {
+  background-color: brown;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+}
+h1 {
+  margin: 0;
+  font-size: 4em;
+
+}
+p {
+  margin-top: 0;
+}
+nav {
+  padding: 10px;
+
+}
+ul {
+  list-style: none;
+  margin: 50px 0 0 0;
+  padding: 10px;
+}
+li {
+  display: inline-block;
+  padding-right: 10px;
+}
+a {
+  color:inherit;
+  border: 1px solid transparent;
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius: 500px;
+}
+a:hover {
+  background-color: hsla(0, 0, 100%, .1);
+  border-color: white;
+}
