@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background-color: silver;
+}
+section {
+  padding: 150px 10%;
+  background-image:linear-gradient(hsla(100, 50%, 50%, .5), hsla(200, 50%, 50%, .5)), url(http://unsplash.it/750/750);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: ;
+  color:white
+}
+footer {
+background-color: grey;
+padding: 50px 10px;
+}
+nav li {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-size: 120%;
+  justify-content: center;
+}
