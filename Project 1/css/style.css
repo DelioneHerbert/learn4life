@@ -75,7 +75,7 @@ h2, h3, nav a {
 /*titty sprinkles -Morgan Freeman*/
 
 nav a:hover {
-  text-shadow: 
+  text-shadow:
     1px 1px .25px hsl(0, 100%, 16%),
     1px 1px 8px hsl(0, 100%, 16%),
     -1px 1px .25px hsl(0, 100%, 16%),
@@ -84,9 +84,5 @@ nav a:hover {
     1px -1px 8px hsl(0, 100%, 16%),
     -1px -1px .25px hsl(0, 100%, 16%),
     -1px -1px 8px hsl(0, 100%, 16%);
-  
+
 }
-
-
-
-
