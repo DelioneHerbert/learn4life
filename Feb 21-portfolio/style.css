@@ -54,9 +54,8 @@ article {
   display: flex;
   flex-direction: column;
   background-color: white;
-  align-items: center;
-  margin-left: 320px;
-  width: 50%;
+  text-align: center;
+  max-width: 50%;
 }
 h2 {
   text-align: center;
@@ -89,4 +88,9 @@ h2 {
 }
 .ip {
   color: white
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
