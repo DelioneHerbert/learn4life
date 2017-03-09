@@ -109,3 +109,23 @@ article address {
   height: 100%;
   background-size: cover;
 }
+div {
+  width: 30%;
+  margin: 0 auto;
+  border: solid black 1px;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 20px;
+  background-color:hsl(240,6%,18%);
+  color: white;
+}
+.container-div {
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.links {
+  height: 150px;
+  width: 100%;
+}

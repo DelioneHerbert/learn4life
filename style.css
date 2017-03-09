@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+body {
+  text-decoration: none;
+  margin: 0;
+  background-color: black;
+}
+
+nav li {
+  list-style: none;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+nav a {
+ display: flex;
+ font-size: 120%;
+ transition: text-shadow 250ms ease-out;
+ text-decoration: none;
+ color: white;
+ text-shadow: -1px -1px .25px hsl(51, 100%, 50%)
+ }
+ nav a:hover {
+   text-shadow:
+   1px 1px .25px hsl(234, 67%, 94%),
+   1px 1px 8px hsl(234, 67%, 94%),
+   -1px 1px .25px hsl(234, 67%, 94%),
+   -1px 1px 8px hsl(234, 67%, 94%),
+   1px -1px .25px hsl(234, 67%, 94%),
+   1px -1px 8px hsl(234, 67%, 94%),
+   -1px -1px .25px hsl(234, 67%, 94%),
+   -1px -1px 8px hsl(234, 67%, 94%)
+ }
+nav a {
+  background-color: lightgrey;
+  padding: 7px 15px;
+  border: 1px solid lightgrey;
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 0px hsl(234, 67%, 94%);
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 1px 1px 3px hsl(234, 67%, 94%);
+  transition: all 150ms ease-out;
+}
+h1 {
+  color: hsl(234, 67%, 94%);
+  text-align: center;
+  font-family: 'Aldrich', sans-serif;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  max-width: 50%;
+}
+h2 {
+  text-align: center;
+  font-size: 200%;
+}
+.secret {
+  text-decoration: none;
+  border: none;
+  text-shadow: none;
+  padding: 0;
+  background-color: none;
+  box-shadow: none;
+}
+.secret:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+.secret:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+.SHHH {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+}
+.ip {
+  color: white;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+article {
+  color: white
+}
+article address {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+#spacecat {
+  background-image: url(img/BcvmxibIYAAH8a3.jpg);
+  background-size: cover;
+}
+div {
+  width: 30%;
+  margin: 0 auto;
+  border: solid black 1px;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 20px;
+  background-color:hsl(240,6%,18%);
+  color: white;
+}
+.container-div {
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.container-div img {
+ height: 250px;
+ width: 100%;
+}
