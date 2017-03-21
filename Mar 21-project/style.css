@@ -1,0 +1,31 @@
+.name {
+  font-size: 1.5rem
+}
+.content.display-container  {
+display: flex;
+justify-content: center;
+}
+.mySlides {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+article:nth-child(odd) {
+ float: right;
+}
+body {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+img {
+  float: left;
+}
+p {
+
+}
+div {
+  padding: 100px 10%;
+}
