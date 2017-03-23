@@ -3,7 +3,7 @@
 }
 .content.display-container  {
 display: flex;
-justify-content: center;
+justify-content: flex-start;
 }
 .mySlides {
   height: 300px;
@@ -11,21 +11,56 @@ justify-content: center;
   display: flex;
   justify-content: center;
 }
-article:nth-child(odd) {
- float: right;
-}
-body {
-  margin: 0;
-}
-h1 {
-  text-align: center;
-}
-img {
-  float: left;
-}
-p {
 
+#nav-div a {
+color: black;
+text-decoration: none;
+display: block;
+padding: 15px 25px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 14px;
+position: relative;
+transition: color .25s;
 }
-div {
-  padding: 100px 10%;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: inline-block;
+  zoom: 1;
+  font-size: 0;
+}
+#nav-div {
+  background-color: orange;
+}
+#nav-div a:hover {
+  color: red;
+}
+#nav-div ul li a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: #333333;
+  transition: width .25s;
+}
+#nav-div ul li a::after {
+  content: "";
+    display: block;
+    position: absolute;
+    right: -3px;
+    top: 19px;
+    height: 6px;
+    width: 6px;
+    background: #ffffff;
+    opacity: .5;
+}
+article {
+  text-align: center;
 }
