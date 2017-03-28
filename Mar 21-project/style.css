@@ -3,7 +3,7 @@
 }
 .content.display-container  {
 display: flex;
-justify-content: flex-start;
+justify-content: center;
 }
 .mySlides {
   height: 300px;
@@ -63,4 +63,16 @@ ul {
 }
 article {
   text-align: center;
+}
+.header {
+  padding: 4em 4em 2em 4em;
+  border-radius: 5px;
+  text-align: center;
+  background-color: ;
+  border: black 1px solid;
+}
+h2 {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.375;
 }
