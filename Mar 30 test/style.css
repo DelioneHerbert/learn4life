@@ -1,0 +1,38 @@
+.dropdown-hover {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.dropdown-button {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.dropdown-content {
+    cursor: auto;
+    color: #000;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    margin: 0;
+    padding: 0;
+}
+.bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    outline: none;
+    white-space: normal;
+}
