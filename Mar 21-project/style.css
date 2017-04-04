@@ -2,12 +2,24 @@
   font-size: 1.5rem
 }
 .content.display-container  {
-display: flex;
-justify-content: center;
+position: relative;
 }
 .mySlides {
-  height: 300px;
-  width: 300px;
+
+}
+.button {
+  opacity: .8;
+  height: 50px;
+  position: absolute;
+  top: 40%;
+}
+.display-left {
+  left: 0;
+}
+.display-right {
+  right: 0;
+}
+.container-div {
   display: flex;
   justify-content: center;
 }
