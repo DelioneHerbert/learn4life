@@ -1,17 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+}
 .name {
   font-size: 1.5rem
 }
 .content.display-container  {
 position: relative;
 }
-.mySlides {
-
-}
 .button {
-  opacity: .8;
-  height: 50px;
+  height: 80px;
   position: absolute;
   top: 40%;
+  background-color: Transparent;
+  color: black;
+  outline: none;
+  border: none;
+  transition: 1000ms all;
+}
+.button:hover {
+  text-shadow:
+   1px 1px .25px hsl(234, 67%, 94%),
+   2px 2px 8px hsl(234, 67%, 94%),
+   -1px 1px .25px hsl(234, 67%, 94%),
+   -2px 2px 8px hsl(234, 67%, 94%),
+   1px -1px .25px hsl(234, 67%, 94%),
+   2px -2px 8px hsl(234, 67%, 94%),
+   -1px -1px .25px hsl(234, 67%, 94%),
+   -2px -2px 8px hsl(234, 67%, 94%)
 }
 .display-left {
   left: 0;
@@ -98,9 +115,6 @@ footer {
 footer a {
   display: block;
 }
-
-
-
 #first{
   padding: 150px 90px;
   margin-left: 100px;
