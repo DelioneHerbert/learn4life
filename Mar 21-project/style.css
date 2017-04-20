@@ -1,48 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
-h1 {
-  font-family: 'Fredericka the Great', cursive;
-}
-.name {
-  font-size: 1.5rem
-}
-.content.display-container  {
-position: relative;
-}
-.button {
-  height: 80px;
-  position: absolute;
-  top: 40%;
-  background-color: Transparent;
-  color: black;
-  outline: none;
-  border: none;
-  transition: 1000ms all;
-}
-.button:hover {
-  text-shadow:
-   1px 1px .25px hsl(234, 67%, 94%),
-   2px 2px 8px hsl(234, 67%, 94%),
-   -1px 1px .25px hsl(234, 67%, 94%),
-   -2px 2px 8px hsl(234, 67%, 94%),
-   1px -1px .25px hsl(234, 67%, 94%),
-   2px -2px 8px hsl(234, 67%, 94%),
-   -1px -1px .25px hsl(234, 67%, 94%),
-   -2px -2px 8px hsl(234, 67%, 94%)
-}
-.display-left {
-  left: 0;
-}
-.display-right {
-  right: 0;
-}
-.container-div {
-  display: flex;
-  justify-content: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url(' https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
 
-#nav-div a {
-color: black;
+body {
+  margin:0;
+  font-family: 'Raleway', sans-serif;
+  background-color: hsl(0, 0%, 95.7%);
+}
+header a {
+color: hsl(180, 1%, 88%);
 text-decoration: none;
 display: block;
 padding: 15px 25px;
@@ -53,7 +20,7 @@ font-size: 14px;
 position: relative;
 transition: color .25s;
 }
-ul {
+header ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -62,13 +29,14 @@ ul {
   zoom: 1;
   font-size: 0;
 }
-#nav-div {
-  background-color: orange;
+header {
+  background-color: hsl(0, 0%, 100%);
+  margin-bottom: 30px;
 }
-#nav-div a:hover {
-  color: red;
+header a:hover {
+  color: hsla(176, 98%, 49%, 0.7);
 }
-#nav-div ul li a::before {
+header ul li a::before {
   content: "";
   display: block;
   position: absolute;
@@ -79,41 +47,28 @@ ul {
   background: #333333;
   transition: width .25s;
 }
-#nav-div ul li a::after {
-  content: "";
-    display: block;
-    position: absolute;
-    right: -3px;
-    top: 19px;
-    height: 6px;
-    width: 6px;
-    background: #ffffff;
-    opacity: .5;
+nav li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-article {
-  text-align: center;
-  background-color: white;
+h1 {
+  display: flex;
+  justify-content: center;
+  color: hsl(0, 1.1%, 18.2%);
+  padding: 5%;
+  color: hsl(169, 80%, 66%);
 }
-.header {
-  padding: 4em 4em 2em 4em;
+header a {
   border-radius: 5px;
-  text-align: center;
-  background-color: ;
-  border: black 1px solid;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: hsl(0, 1.1%, 18.2%);
+  transition: box-shadow 400ms ease-out;
+  color: hsl(169, 75%, 62%);
 }
-h2, h1 {
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.375;
-}
-footer {
-  text-align: center;
-}
-.color {
-  background-color: lightgrey;
-}
-footer a {
-  display: block;
+header a:hover {
+  color: hsla(179, 100%, 71%, 0.71);
 }
 #first{
   padding: 150px 90px;
@@ -123,7 +78,16 @@ footer a {
   background-color: white;
   color: hsl(0, 0%, 26.7%);
   text-align: center;
-  border-bottom: solid lightgrey 25px;
+
+}
+#first h2{
+  color: rgb(214, 130, 165);
+}
+#first img {
+  width: 20%;
+  height: auto;
+  border: 1px solid transparent;
+  border-radius: 50%;
 }
 #first a {
   padding: 10px 25px;
@@ -146,9 +110,31 @@ footer a {
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 5px;
-  background-image: linear-gradient(hsla(100, 20%, 10%, .7), hsla(100, 30%, 30%, .5)), url(https://images.unsplash.com/photo-1487780711836-2b1fe5783580?dpr=1.5&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+  background-image: linear-gradient(hsla(100, 20%, 10%, .7), hsla(100, 30%, 30%, .5)), url(https://images.unsplash.com/photo-1480789261196-2df71e5ab018?dpr=1.5&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1000&amp;q=80&amp;cs=tinysrgb&amp;crop=);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   color: white;
+}
+footer {
+  padding: 25px 10%;
+  margin-top: 20px;
+  text-align: center;
+}
+footer nav {
+  border-top: 2px solid hsl(0, 1.1%, 18.2%);
+}
+footer a {
+  color: hsl(0, 1.1%, 18.2%);
+  text-decoration: none;
+}
+footer a:hover {
+  color: hsl(126, 25%, 57%);
+
+}
+li {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
