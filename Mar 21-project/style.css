@@ -197,6 +197,11 @@ header a:hover {
 #first h2{
   color: rgb(214, 130, 165);
 }
+.mySlides {
+  width:100% !important;
+  border-radius: 0 !important;
+  
+}
 #first img {
   width: 20%;
   height: auto;
